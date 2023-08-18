@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Geometos Rounded';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('geometos-rounded.woff2') format('woff2');
+}

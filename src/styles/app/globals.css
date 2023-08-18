@@ -1,0 +1,56 @@
+@import url(https://rsms.me/inter/inter.css);
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+:root {
+	font-family: 'Inter', sans-serif;
+
+	--transition-default: 200ms ease;
+}
+
+@supports (font-variation-settings: normal) {
+	:root {
+		font-family: 'Inter var', sans-serif;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: var(--color-on-surface-disabled);
+}
+
+::selection {
+	color: var(--color-on-primary);
+	background-color: var(--color-primary);
+}
+
+body {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+
+	font-family: Inter;
+
+	overflow-y: scroll;
+	scrollbar-gutter: stable both-edges;
+
+	color: var(--color-on-background);
+	background-color: var(--color-background);
+	transition: background-color var(--transition-default);
+}
