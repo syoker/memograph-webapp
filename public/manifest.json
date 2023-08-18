@@ -1,9 +1,9 @@
 {
 	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
 	"author": "Syoker",
-	"name": "MemoGraph | A self-hosted photo viewer",
+	"name": "MemoGraph | A self-hosted picture viewer",
 	"short_name": "MemoGraph",
-	"description": "A self-hosted photo viewer",
+	"description": "A self-hosted picture viewer",
 	"icons": [
 		{
 			"src": "/icon/icon-192x192.png",

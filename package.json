@@ -1,7 +1,7 @@
 {
 	"name": "memograph-app",
 	"version": "0.1.0",
-	"description": "A self-hosted photo viewer",
+	"description": "A self-hosted picture viewer",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",

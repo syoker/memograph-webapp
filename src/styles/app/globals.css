@@ -47,8 +47,8 @@ body {
 
 	font-family: Inter;
 
-	overflow-y: scroll;
-	scrollbar-gutter: stable both-edges;
+	/* overflow-y: scroll;
+	scrollbar-gutter: stable both-edges; */
 
 	color: var(--color-on-background);
 	background-color: var(--color-background);

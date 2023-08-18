@@ -15,7 +15,15 @@ export default function Page() {
 				</article>
 				<p className={styles['nothing']}>something but i dont know what</p>
 			</section>
-			<Image className={styles['test']} src="/images/artwork-03.jpg" alt="test" width="1920" height="1080" priority />
+			<Image
+				className={styles['test']}
+				src="/images/test.png"
+				alt="test"
+				width="1920"
+				height="1080"
+				quality="100"
+				priority
+			/>
 		</main>
 	);
 }
