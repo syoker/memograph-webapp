@@ -3,7 +3,7 @@
 
 	display: flex;
 
-	animation: fade-in var(--transition-default);
+	animation: fade-in var(--transition);
 }
 
 .auth > .test {
@@ -37,7 +37,6 @@
 }
 
 .auth > section > article > h2 {
-	font-size: 2rem;
 	text-align: center;
 }
 

@@ -1,4 +1,4 @@
-import { compareArrays } from '~/utils/shared';
+import { compareArrays } from './languages.functions';
 import { useState, useEffect, type ReactNode } from 'react';
 
 import setLanguage from 'next-translate/setLanguage';

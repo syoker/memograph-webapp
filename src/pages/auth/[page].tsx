@@ -1,19 +1,24 @@
 import type { GetServerSideProps, GetServerSidePropsContext } from 'next';
 
 import Image from 'next/image';
+import useTranslation from 'next-translate/useTranslation';
 
-import styles from '~/styles/auth/auth.module.css';
+import { MaterialButton } from '~/components/shared';
+
+import styles from '~/styles/auth.module.css';
 
 export default function Page() {
+	const { t } = useTranslation('auth');
+
 	return (
 		<main className={styles['auth']}>
 			<section>
 				<h1 className={styles['proyect-name']}>MemoGraph</h1>
 				<article>
-					<h2>Welcome</h2>
-					<p>Please, enter your credentials</p>
+					<h2>{t('welcome')}</h2>
+					<p>{t('please-enter-credentials')}</p>
 				</article>
-				<p className={styles['nothing']}>something but i dont know what</p>
+				<MaterialButton variety="text">{t('create-account')}</MaterialButton>
 			</section>
 			<Image
 				className={styles['test']}

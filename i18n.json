@@ -2,6 +2,7 @@
 	"locales": ["en", "es"],
 	"defaultLocale": "en",
 	"pages": {
-		"/": [""]
+		"/": [""],
+		"/auth/[page]": ["auth"]
 	}
 }
