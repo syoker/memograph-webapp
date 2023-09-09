@@ -1,16 +1,4 @@
 .auth {
-	width: 100%;
-
-	display: flex;
-
-	animation: fade-in var(--transition);
-}
-
-.auth > .test {
-	display: none;
-}
-
-.auth > section {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -23,63 +11,10 @@
 	height: 100dvh;
 }
 
-.auth > section > .proyect-name {
+.auth > .proyect-name {
 	font-family: 'Geometos Rounded';
 	font-size: 2.5rem;
-}
 
-.auth > section > article {
-	gap: 0.2rem;
-	display: flex;
-	flex-direction: column;
-
-	width: 22rem;
-}
-
-.auth > section > article > h2 {
 	text-align: center;
-}
-
-.auth > section > article > p {
-	text-align: center;
-	color: var(--color-on-surface-variant);
-
-	margin-bottom: 1.3rem;
-}
-
-.auth > section > .nothing {
-	font-size: 0.9rem;
-
-	padding-top: 1rem;
-	text-align: center;
-
-	color: var(--color-on-surface-variant);
-}
-
-@media (min-width: 80rem) {
-	.auth > .test {
-		display: inline;
-
-		width: 50%;
-		height: 100dvh;
-
-		object-fit: cover;
-		object-position: center;
-	}
-
-	.auth > section {
-		width: 50%;
-	}
-}
-
-@media (max-width: 22.5rem) {
-	.auth > section > article {
-		width: 20rem;
-	}
-}
-
-@media (max-width: 17.5rem) {
-	.auth > section > article {
-		width: 16rem;
-	}
+	white-space: nowrap;
 }

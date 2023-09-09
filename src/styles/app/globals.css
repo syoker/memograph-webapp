@@ -52,7 +52,7 @@ body {
 
 	color: var(--color-on-background);
 	background-color: var(--color-background);
-	transition: background-color var(--transition);
+	transition: color var(--transition), background-color var(--transition);
 }
 
 h1 {

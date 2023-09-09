@@ -1,0 +1,44 @@
+.icon-button {
+	position: relative;
+
+	border: none;
+	outline: none;
+
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	min-width: 2.5rem;
+	min-height: 2.5rem;
+	padding: 0.5rem;
+	border-radius: 6.25rem;
+
+	margin: 0.5rem;
+
+	background-color: transparent;
+	transition: background-color var(--transition);
+}
+
+.icon-button > svg {
+	width: 1.5rem;
+	height: 1.5rem;
+
+	color: var(--color-on-surface-variant);
+	transition: color var(--transition);
+}
+
+.icon-button:active {
+	background-color: rgba(var(--color-object-hover-rgb), 0.12);
+}
+
+@media (min-width: 80rem) {
+	.icon-button:hover {
+		background-color: rgba(var(--color-object-hover-rgb), 0.08);
+	}
+
+	.icon-button:focus-visible {
+		background-color: rgba(var(--color-object-hover-rgb), 0.12);
+	}
+}
