@@ -18,3 +18,35 @@
 	text-align: center;
 	white-space: nowrap;
 }
+
+.auth > .section {
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	max-width: 30rem;
+}
+
+.auth > .section > .title {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.auth > .section > .paragraph {
+	font-size: 0.9rem;
+	text-align: center;
+
+	margin-bottom: 1rem;
+
+	transition: color var(--transition);
+	color: rgba(var(--color-on-background-rgb), 0.8);
+}
+
+.auth > .license {
+	font-size: 0.8rem;
+	text-align: center;
+	font-weight: 500;
+
+	transition: color var(--transition);
+	color: rgba(var(--color-on-background-rgb), 0.6);
+}

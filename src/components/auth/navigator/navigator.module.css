@@ -1,0 +1,59 @@
+.navigator {
+	display: flex;
+	position: relative;
+
+	height: 4rem;
+	width: 100%;
+	border-radius: 0.5rem;
+
+	transition: background-color var(--transition);
+	background-color: var(--color-surface-variant);
+}
+
+.navigator > a {
+	z-index: 3;
+	position: relative;
+
+	width: 50%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.5rem;
+	letter-spacing: 0.00938rem;
+
+	transition: color var(--transition);
+	color: var(--color-on-surface-disabled);
+}
+
+.navigator > .active {
+	color: var(--color-on-background);
+}
+
+.navigator > .indicator {
+	z-index: 2;
+	position: absolute;
+
+	top: 2px;
+	left: 2px;
+
+	width: calc(50% - 4px);
+	height: calc(100% - 4px);
+	border-radius: 0.4rem;
+
+	background-color: var(--color-background);
+	transition: left var(--transition), background-color var(--transition);
+}
+
+.navigator > .left {
+	left: 2px;
+}
+
+.navigator > .right {
+	left: calc(50% + 2px);
+}

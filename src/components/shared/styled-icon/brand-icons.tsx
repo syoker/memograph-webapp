@@ -99,7 +99,7 @@ export const Default = () => {
 		<svg
 			stroke="currentColor"
 			fill="currentColor"
-			stroke-width="0"
+			strokeWidth="0"
 			viewBox="0 0 512 512"
 			height="1em"
 			width="1em"
@@ -107,9 +107,9 @@ export const Default = () => {
 		>
 			<path
 				fill="none"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				stroke-width="36"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+				strokeWidth="36"
 				d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
 			></path>
 		</svg>
