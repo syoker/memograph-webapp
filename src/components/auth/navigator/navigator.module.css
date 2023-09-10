@@ -25,6 +25,7 @@
 	font-style: normal;
 	font-weight: 500;
 	line-height: 1.5rem;
+	user-select: none;
 	letter-spacing: 0.00938rem;
 
 	transition: color var(--transition);

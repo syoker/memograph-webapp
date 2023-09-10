@@ -20,7 +20,7 @@
 	width: 100%;
 	height: 100dvh;
 
-	animation: fade-in 300ms ease forwards;
+	animation: fade-in var(--transition-page);
 }
 
 .auth > .proyect-name {
