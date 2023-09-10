@@ -13,4 +13,4 @@ const nextConfig = nextTranslate({
 	reactStrictMode: true,
 });
 
-export default nextConfig;
+export default createPWA(nextConfig);
