@@ -1,4 +1,4 @@
-import type { ReactButton } from '~/types/react-elements';
+import type { ReactButton } from '~/types/shared';
 
 import classNames from 'classnames';
 import styles from './material-button.module.css';

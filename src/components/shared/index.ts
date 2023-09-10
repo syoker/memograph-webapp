@@ -1,3 +1,4 @@
+export { default as CustomHead } from './custom-head/custom-head';
 export { default as StyledIcon } from './styled-icon/styled-icon';
 export { default as MaterialLink } from './material-button/material-link';
 export { default as MaterialButton } from './material-button/material-button';

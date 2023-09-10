@@ -1,4 +1,4 @@
-import type { ReactButton } from '~/types/react-elements';
+import type { ReactButton } from '~/types/shared';
 
 import styles from './material-iconbutton.module.css';
 

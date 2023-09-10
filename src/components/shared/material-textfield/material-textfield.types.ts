@@ -1,4 +1,4 @@
-import type { ErrorTextField } from '~/types/error-textfield';
+import type { ErrorTextField } from '~/types/shared';
 import type { DetailedHTMLProps, InputHTMLAttributes } from 'react';
 
 type HTMLInputProps = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>;

@@ -1,8 +1,8 @@
 import { useState, type ChangeEvent } from 'react';
 
-import useTranslation from 'next-translate/useTranslation';
+import type { ErrorTextField } from '~/types/shared';
 
-import type { ErrorTextField } from '~/types/error-textfield';
+import useTranslation from 'next-translate/useTranslation';
 
 type TextFieldProps = [
 	value: string,
